@@ -1,0 +1,3 @@
+target 'TTC BLE Demo' do
+ pod 'TTCBLEManager'
+end

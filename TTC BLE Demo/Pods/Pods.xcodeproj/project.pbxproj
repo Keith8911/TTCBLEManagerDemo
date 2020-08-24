@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E49F01D2DFE9A076D0829A2634E760 /* libBLEManager.a in Sources */ = {isa = PBXBuildFile; fileRef = E7DBE5BDDD9428BE948FD2228156263F /* libBLEManager.a */; };
+		4677B7E4F5D09CEA7431CC36D4229E99 /* oad.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1FCF00DB62015A3FBEC84662B0B07C /* oad.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88A2956EA3792AC38E8A03D243A329BE /* DeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 63666F053FF6462FE5F9D2858FE63FFF /* DeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5F36430EED2DD4E00C6BEB3FC1A0853 /* TTCBLEManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5D67D8E1E05FF5D15E2A1087AFA1C /* TTCBLEManager-dummy.m */; };
+		BFFEB43C15BE7CEE8FE9B7E4959DE285 /* Pods-TTC BLE Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD25F71EDFCAD09B1F50C821456C282 /* Pods-TTC BLE Demo-dummy.m */; };
+		D78ADEF6E9925A3D822034FED7FBCFFF /* BLEManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6087E33680524BEE8E275FF22A370E8D /* BLEManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA58B8CC1A9EDD4754C88BC87080482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14D1C70A10D50DEFABE6324DA4B14FD;
+			remoteInfo = TTCBLEManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283A8156FA65AEF387FFC92C8F65702B /* Pods-TTC BLE Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTC BLE Demo.release.xcconfig"; sourceTree = "<group>"; };
+		30F29281DD3CAD3059BF7FC48FB9BB37 /* Pods-TTC BLE Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTC BLE Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		394E3830DB7CF95018E371E3AF8952AB /* TTCBLEManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTCBLEManager-prefix.pch"; sourceTree = "<group>"; };
+		5BD25F71EDFCAD09B1F50C821456C282 /* Pods-TTC BLE Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTC BLE Demo-dummy.m"; sourceTree = "<group>"; };
+		5E9282421DF78F91DD4AC70E44700A22 /* TTCBLEManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTCBLEManager.debug.xcconfig; sourceTree = "<group>"; };
+		6087E33680524BEE8E275FF22A370E8D /* BLEManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLEManager.h; path = TTCBLEManager/Classes/BLEManager.h; sourceTree = "<group>"; };
+		63666F053FF6462FE5F9D2858FE63FFF /* DeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceInfo.h; path = TTCBLEManager/Classes/DeviceInfo.h; sourceTree = "<group>"; };
+		7DF9519E807BBA57350F65BCCD6B99C7 /* libTTCBLEManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTTCBLEManager.a; path = libTTCBLEManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD1FCF00DB62015A3FBEC84662B0B07C /* oad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oad.h; path = TTCBLEManager/Classes/oad.h; sourceTree = "<group>"; };
+		E05B53B7267B21FC874E7AC0B33493E2 /* libPods-TTC BLE Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTC BLE Demo.a"; path = "libPods-TTC BLE Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DBE5BDDD9428BE948FD2228156263F /* libBLEManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBLEManager.a; path = TTCBLEManager/Classes/libBLEManager.a; sourceTree = "<group>"; };
+		E7E5D67D8E1E05FF5D15E2A1087AFA1C /* TTCBLEManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTCBLEManager-dummy.m"; sourceTree = "<group>"; };
+		E8BD8C932F358397F79D783ED38E4ECB /* TTCBLEManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTCBLEManager.release.xcconfig; sourceTree = "<group>"; };
+		EE4F9CD053C91B5A97473338B8C867B0 /* Pods-TTC BLE Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTC BLE Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9FA9C41C30DD3B0810F8D6AECB9813 /* Pods-TTC BLE Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTC BLE Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D556F53E1AAA2DE7FE6C9ED9835E1B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD671D5E55C3FC700A85E116763C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06FEE38D29C198B872AEBE089445D2EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05B53B7267B21FC874E7AC0B33493E2 /* libPods-TTC BLE Demo.a */,
+				7DF9519E807BBA57350F65BCCD6B99C7 /* libTTCBLEManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363A36F0564B5A1399C9A4A4A9839F50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5D67D8E1E05FF5D15E2A1087AFA1C /* TTCBLEManager-dummy.m */,
+				394E3830DB7CF95018E371E3AF8952AB /* TTCBLEManager-prefix.pch */,
+				5E9282421DF78F91DD4AC70E44700A22 /* TTCBLEManager.debug.xcconfig */,
+				E8BD8C932F358397F79D783ED38E4ECB /* TTCBLEManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTCBLEManager";
+			sourceTree = "<group>";
+		};
+		8AB12D56B0FF9CE28923C69B6A3749A7 /* TTCBLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				6087E33680524BEE8E275FF22A370E8D /* BLEManager.h */,
+				63666F053FF6462FE5F9D2858FE63FFF /* DeviceInfo.h */,
+				E7DBE5BDDD9428BE948FD2228156263F /* libBLEManager.a */,
+				BD1FCF00DB62015A3FBEC84662B0B07C /* oad.h */,
+				AA040904C7F7347A80510B5EBD716EE8 /* Frameworks */,
+				363A36F0564B5A1399C9A4A4A9839F50 /* Support Files */,
+			);
+			name = TTCBLEManager;
+			path = TTCBLEManager;
+			sourceTree = "<group>";
+		};
+		AA040904C7F7347A80510B5EBD716EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D14839DAAF6508921EC8417941CFAF9B /* Pods */,
+				06FEE38D29C198B872AEBE089445D2EB /* Products */,
+				DEDD6FA0765E66E3C134D9BDC830AB8B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D14839DAAF6508921EC8417941CFAF9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AB12D56B0FF9CE28923C69B6A3749A7 /* TTCBLEManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE7E698B1698934C3722DCACC24D8FD /* Pods-TTC BLE Demo */ = {
+			isa = PBXGroup;
+			children = (
+				30F29281DD3CAD3059BF7FC48FB9BB37 /* Pods-TTC BLE Demo-acknowledgements.markdown */,
+				FD9FA9C41C30DD3B0810F8D6AECB9813 /* Pods-TTC BLE Demo-acknowledgements.plist */,
+				5BD25F71EDFCAD09B1F50C821456C282 /* Pods-TTC BLE Demo-dummy.m */,
+				EE4F9CD053C91B5A97473338B8C867B0 /* Pods-TTC BLE Demo.debug.xcconfig */,
+				283A8156FA65AEF387FFC92C8F65702B /* Pods-TTC BLE Demo.release.xcconfig */,
+			);
+			name = "Pods-TTC BLE Demo";
+			path = "Target Support Files/Pods-TTC BLE Demo";
+			sourceTree = "<group>";
+		};
+		DEDD6FA0765E66E3C134D9BDC830AB8B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7E698B1698934C3722DCACC24D8FD /* Pods-TTC BLE Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E1547FC71224F2505F2288C7C7E33E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE79EA1CDA3FE08035B71B44FB51E82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78ADEF6E9925A3D822034FED7FBCFFF /* BLEManager.h in Headers */,
+				88A2956EA3792AC38E8A03D243A329BE /* DeviceInfo.h in Headers */,
+				4677B7E4F5D09CEA7431CC36D4229E99 /* oad.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		724396D926C519904F326ACC4A32FEA9 /* Pods-TTC BLE Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3621C5DABCAD8CF51B2C50461A02D8C /* Build configuration list for PBXNativeTarget "Pods-TTC BLE Demo" */;
+			buildPhases = (
+				1E1547FC71224F2505F2288C7C7E33E7 /* Headers */,
+				2396DC1C972E2CB2FF37B657FBD05152 /* Sources */,
+				D556F53E1AAA2DE7FE6C9ED9835E1B37 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9754C9C9989259E0812D90C47482D1AA /* PBXTargetDependency */,
+			);
+			name = "Pods-TTC BLE Demo";
+			productName = "Pods-TTC BLE Demo";
+			productReference = E05B53B7267B21FC874E7AC0B33493E2 /* libPods-TTC BLE Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E14D1C70A10D50DEFABE6324DA4B14FD /* TTCBLEManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A79E9BE915F6B55CA631418FF5095FC /* Build configuration list for PBXNativeTarget "TTCBLEManager" */;
+			buildPhases = (
+				2DE79EA1CDA3FE08035B71B44FB51E82 /* Headers */,
+				48C15F77D252AC0F1B8C813C9ACC08F4 /* Sources */,
+				DDDD671D5E55C3FC700A85E116763C64 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTCBLEManager;
+			productName = TTCBLEManager;
+			productReference = 7DF9519E807BBA57350F65BCCD6B99C7 /* libTTCBLEManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 06FEE38D29C198B872AEBE089445D2EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724396D926C519904F326ACC4A32FEA9 /* Pods-TTC BLE Demo */,
+				E14D1C70A10D50DEFABE6324DA4B14FD /* TTCBLEManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2396DC1C972E2CB2FF37B657FBD05152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFEB43C15BE7CEE8FE9B7E4959DE285 /* Pods-TTC BLE Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C15F77D252AC0F1B8C813C9ACC08F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E49F01D2DFE9A076D0829A2634E760 /* libBLEManager.a in Sources */,
+				A5F36430EED2DD4E00C6BEB3FC1A0853 /* TTCBLEManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9754C9C9989259E0812D90C47482D1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTCBLEManager;
+			target = E14D1C70A10D50DEFABE6324DA4B14FD /* TTCBLEManager */;
+			targetProxy = DA58B8CC1A9EDD4754C88BC87080482A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE837CF1C526E1694C70FF1972C6B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4F9CD053C91B5A97473338B8C867B0 /* Pods-TTC BLE Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EBC741460BC710C963D24CAAB3BC925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		87B2837FB1AA4F396E176EEDBC099149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BD8C932F358397F79D783ED38E4ECB /* TTCBLEManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTCBLEManager/TTCBLEManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTCBLEManager;
+				PRODUCT_NAME = TTCBLEManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40FB7C4B9460AE765A736AB575EEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CBAB8C08B230F881813597E57AC11642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9282421DF78F91DD4AC70E44700A22 /* TTCBLEManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTCBLEManager/TTCBLEManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTCBLEManager;
+				PRODUCT_NAME = TTCBLEManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAC13F189BB90A64D1200C97597ADE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283A8156FA65AEF387FFC92C8F65702B /* Pods-TTC BLE Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBC741460BC710C963D24CAAB3BC925 /* Debug */,
+				A40FB7C4B9460AE765A736AB575EEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A79E9BE915F6B55CA631418FF5095FC /* Build configuration list for PBXNativeTarget "TTCBLEManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAB8C08B230F881813597E57AC11642 /* Debug */,
+				87B2837FB1AA4F396E176EEDBC099149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3621C5DABCAD8CF51B2C50461A02D8C /* Build configuration list for PBXNativeTarget "Pods-TTC BLE Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE837CF1C526E1694C70FF1972C6B1D /* Debug */,
+				EAC13F189BB90A64D1200C97597ADE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

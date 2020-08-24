@@ -1,0 +1,1 @@
+../../../TTCBLEManager/TTCBLEManager/Classes/BLEManager.h
